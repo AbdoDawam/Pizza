@@ -2,13 +2,15 @@
   background: url('../../assets/qoutes-bg.jpg');
   background-position: center;
   background-size: cover;
+}
+.qoutes .container {
   @apply flex flex-col gap-10 items-center py-10 font-bree;
 }
 .qoutes p {
   @apply text-6xl;
 }
 .qoutes h1 {
-  @apply text-2xl text-color4;
+  @apply text-2xl text-color4 text-center;
 }
 .qoutes h2 {
   @apply text-xl text-color1;
