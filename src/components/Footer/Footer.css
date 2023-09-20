@@ -1,0 +1,12 @@
+footer {
+  @apply bg-color4 py-5;
+}
+footer .container {
+  @apply flex flex-wrap justify-center sm:justify-between items-center text-lg text-center text-white font-bree gap-5;
+}
+footer .links {
+  @apply flex text-2xl gap-5;
+}
+footer a {
+  @apply text-color1;
+}

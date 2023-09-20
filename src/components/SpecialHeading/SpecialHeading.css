@@ -1,0 +1,15 @@
+.special {
+  @apply relative text-2xl mt-5 p-10;
+}
+
+.special img {
+  @apply absolute w-8;
+}
+
+.special .pizza_one {
+  @apply left-0 top-0;
+}
+
+.special .pizza_two {
+  @apply bottom-0 right-0;
+}

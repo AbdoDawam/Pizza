@@ -1,0 +1,23 @@
+.products {
+  @apply flex flex-col items-center;
+}
+
+.products .container {
+  @apply flex flex-wrap justify-center gap-20 my-10;
+}
+
+.products .product_card {
+  transition: 0.4s;
+  @apply flex flex-col items-center gap-2 font-bree text-lg
+    text-color2 cursor-pointer;
+}
+.products .product_card .price {
+  @apply text-color1;
+}
+.products .product_card img {
+  @apply w-40;
+}
+
+.products .product_card:hover {
+  transform: translateY(-15px);
+}

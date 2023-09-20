@@ -1,0 +1,9 @@
+.hero {
+  @apply bg-color1 flex justify-center pt-5 pb-[10rem] relative;
+}
+.hero .pizza_image {
+  @apply w-[20rem] md:w-[30rem] h-[15rem] md:h-[20rem];
+}
+.hero .decor {
+  @apply absolute bottom-0;
+}

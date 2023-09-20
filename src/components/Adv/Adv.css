@@ -1,0 +1,19 @@
+.adv {
+  @apply bg-color3;
+}
+.adv .container {
+  @apply flex flex-wrap items-center justify-center gap-20 py-10;
+}
+
+.adv .adv_card {
+  @apply flex flex-col items-center w-60 gap-3 text-center;
+}
+.adv .adv_card img {
+  @apply w-20;
+}
+.adv .adv_card h2 {
+  @apply text-xl text-color2;
+}
+.adv .adv_card p {
+  @apply text-sm font-bree text-white tracking-widest;
+}

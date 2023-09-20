@@ -1,0 +1,25 @@
+nav {
+  @apply bg-color1 text-white;
+}
+
+nav .heading {
+  @apply flex flex-col items-center font-pacifico text-[1.75rem];
+}
+
+nav .heading span {
+  @apply hidden md:block text-color2;
+}
+nav .container {
+  @apply font-bree flex justify-between items-center py-5;
+}
+
+nav ul {
+  @apply hidden md:flex items-center gap-20 text-[1];
+}
+
+nav ul .dish {
+  @apply flex flex-col items-center font-pacifico;
+}
+nav ul .sign {
+  @apply flex items-center font-pacifico text-lg;
+}
